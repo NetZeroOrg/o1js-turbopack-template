@@ -1,14 +1,12 @@
 {
     "extends": "@repo/typescript-config/circuits.json",
-    "compilerOptions": {
-        "outDir": "dist"
-    },
+    "files": [
+        "node_modules/jest-expect-message/types/index.d.ts"
+    ],
     "include": [
-        "src",
-        "test"
+        "./src/**/*"
     ],
     "exclude": [
-        "node_modules",
-        "dist"
-    ]
+        "jest.config.cjs"
+    ],
 }

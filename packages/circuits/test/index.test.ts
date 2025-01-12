@@ -5,5 +5,4 @@ describe("Add two number test", () => {
         const { verificationKey } = await addTwoNumbersProgram.compile()
         console.log(verificationKey)
     })
-
 })
